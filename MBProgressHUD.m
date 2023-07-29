@@ -3,7 +3,7 @@
 // Version 1.2.0
 // Created by Matej Bukovinski on 2.4.09.
 //
-
+#if __has_include(<UIKit/UIKit.h>)
 #import "MBProgressHUD.h"
 #import <tgmath.h>
 
@@ -1192,3 +1192,5 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
 }
 
 @end
+
+#endif
